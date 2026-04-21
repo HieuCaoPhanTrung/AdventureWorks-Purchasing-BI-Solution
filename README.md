@@ -35,3 +35,22 @@ The project follows a standard BI lifecycle:
 ├── 4.Visualization_PBI    # Power BI Dashboard files (.pbix)
 ├── 5.Scripts_SQL          # T-SQL scripts for Staging, DWH, and Stored Procedures
 └── README.md              # Project documentation
+```
+
+## 🚀 Setup & Installation
+1.  **Data Source:** Restore the `AdventureWorks2019` database on your SQL Server instance.
+2.  **ETL:** Open the SSIS solution, update the Connection Managers, and execute the packages to populate the Data Warehouse.
+3.  **SSAS:** Deploy the SSAS project to your Analysis Services instance to build the OLAP cubes.
+4.  **Power BI:** Open the `.pbix` files and update the data source to point to your SSAS Cube or SQL Data Warehouse.
+
+## 👥 Contributors
+**Group 9 - Class 243MI3301 - University of Economics and Law (UEL)**
+* **Luong Chi Trung** (Leader)
+* **Le Thanh Quy Hai**
+* **Cao Phan Trung Hieu**
+* **Tran Duc Luong**
+* **Nguyen Van Tai**
+
+---
+*Mentored by: MSc. Le Ba Thien*
+```
